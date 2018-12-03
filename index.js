@@ -5,7 +5,7 @@ const grpc = require("grpc");
 const protoLoader = require("@grpc/proto-loader");
 const grpcUrl = require("@arys/grpc-url");
 // consts
-const grpcServers = JSON.parse(fs.readFileSync("./config/grpc.json"));
+const grpcServers = JSON.parse(fs.readFileSync(path.join(__dirname, "../../../config/grpc.json")));
 
 class grpcClient {
     constructor() {

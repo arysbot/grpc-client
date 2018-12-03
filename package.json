@@ -1,6 +1,6 @@
 {
   "name": "@arys/grpc-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "package that creates the grpc client objects needed for each service",
   "main": "index.js",
   "scripts": {
